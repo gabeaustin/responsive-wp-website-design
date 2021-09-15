@@ -229,7 +229,14 @@ section {
     margin-left: 24px;
     font-weight: bold;
     cursor: pointer;
-    background-color: #fff;
+    background: #fff;
+}
+
+.btn-readmore:hover {
+    background: red;
+    text-decoration: none;
+    padding: 8px 64px 8px 24px;
+    color: #fff;
 }
 
 /* media queries */
@@ -244,5 +251,13 @@ section {
 
     .card .card-image img {
         width: 100%;
+    }
+}
+
+/* if the screen gets larger than 1200px, the main container will only be 85% (not 100%) */
+
+@media(min-width: 1200px) {
+    main {
+        width: 85%;
     }
 }
