@@ -169,7 +169,36 @@ nav ul {
 /* slideout menu */
 
 #slideout-menu {
-    display: none;
+    background: #2d3436;
+    z-index: 100;
+    position: fixed;
+    transition: 0.4s;
+    margin-top: 72px;
+    width: 100%;
+    text-align: center;
+}
+
+#slideout-menu ul {
+    list-style: none;
+    padding: 0 32px;
+}
+
+#slideout-menu ul li {
+    padding: 8px;
+}
+
+#slideout-menu a {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+#slideout-menu input {
+    width: 85%;
+    padding: 8px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    text-align: center;
 }
 
 /* sections */
@@ -310,15 +339,22 @@ footer #social-media-footer ul li:hover a .fa-github {
     nav ul {
         display: none;
     }
+
+    #menu-icon {
+        display: flex;
+    }
+    
+    #searchbox {
+        display: none;
+    }
+
+    #slideout-menu {
+        display: block;
+    }
+
+
 }
 
-#menu-icon {
-    display: flex;
-}
-
-#searchbox {
-    display: none;
-}
 
 @media(min-width: 720px) {
     main {
