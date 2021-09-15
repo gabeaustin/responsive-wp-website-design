@@ -169,6 +169,7 @@ nav ul {
 /* slideout menu */
 
 #slideout-menu {
+    display: none;
     background: #2d3436;
     z-index: 100;
     position: fixed;
@@ -348,11 +349,73 @@ footer #social-media-footer ul li:hover a .fa-github {
         display: none;
     }
 
-    #slideout-menu {
+    /* #slideout-menu {
         display: block;
+    } */
+}
+
+@media(max-width: 719px) {
+    main {
+        width: 95%;
     }
 
+    section {
+        flex-direction: column;
+    }
 
+    .card,
+    .card .card-image img {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer #left-footer {
+        flex: 1;
+        border-right: 0;
+        padding-left: 0;
+    }
+
+    footer #right-footer {
+        background: #eee;
+        color: #000;
+    }
+
+    footer #right-footer a {
+        color: #000;
+    }
+
+    footer #social-media-footer a .fa-facebook,
+    footer #social-media-footer a .fa-youtube,
+    footer #social-meida-footer a .fa-github {
+        color: #000;
+        transition: 0.4s;
+    }
+}
+
+@media(max-width:600px) {
+    main {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    #banner h3 {
+        font-size: 20px;
+    }
+
+    .card {
+        text-align: center;
+    }
+
+    #logo-img {
+        padding: 0;
+    }
 }
 
 
