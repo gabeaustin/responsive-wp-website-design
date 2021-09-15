@@ -304,6 +304,22 @@ footer #social-media-footer ul li:hover a .fa-github {
 
 
 /* media queries */
+
+/* if the screen goes below 900px, then the menu (below) will not be displayed */
+@media(max-width: 900px) {
+    nav ul {
+        display: none;
+    }
+}
+
+#menu-icon {
+    display: flex;
+}
+
+#searchbox {
+    display: none;
+}
+
 @media(min-width: 720px) {
     main {
         width: 95%;
