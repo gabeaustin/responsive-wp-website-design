@@ -166,3 +166,9 @@ nav ul {
     color: red;
 }
 
+/* slideout menu */
+
+#slideout-menu {
+    display: none;
+}
+
