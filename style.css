@@ -149,5 +149,20 @@ nav ul {
     font-size: 28px;
     padding: 0 4px;
     color: #eee;
+    display: none; /* dont show on desktop */
+    align-items: center;
+}
+
+/* search icon  */
+
+#search-icon {
+    color: #fff;
+    padding: 0 32px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#search-icon:hover {
+    color: red;
 }
 
