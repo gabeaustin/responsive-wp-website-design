@@ -121,3 +121,26 @@ nav ul {
     height: 100%;
     margin: 0;
 }
+
+.active {
+    color: #f783ae
+}
+
+#logo-img {
+    display: flex;
+    height: 100%;
+    background: #111;
+    padding: 0 32px;
+    align-items: center;
+    color: #fff;
+    transition: 0.4s;
+}
+
+#logo-img img {
+    height: 100px;
+}
+
+#logo-img:hover {
+    color: #000;
+}
+
