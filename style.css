@@ -141,6 +141,13 @@ nav ul {
 }
 
 #logo-img:hover {
-    color: #000;
+    background: #000;
+}
+
+#menu-icon {
+    height: 100%;
+    font-size: 28px;
+    padding: 0 4px;
+    color: #eee;
 }
 
